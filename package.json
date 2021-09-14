@@ -1,0 +1,12 @@
+{
+  "name": "swc-issue-repro-2050",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "swc server --config-file server/.swcrc --out-dir dist/server --copy-files"
+  },
+  "dependencies": {
+    "@swc/cli": "^0.1.49",
+    "@swc/core": "^1.2.87"
+  }
+}
