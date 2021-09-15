@@ -1,0 +1,16 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript"
+    },
+    "baseUrl": ".",
+    "paths": {
+      "server/*": [
+        "./*"
+      ]
+    }
+  },
+  "module": {
+    "type": "commonjs"
+  }
+}

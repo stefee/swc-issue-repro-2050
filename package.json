@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "build:repro-1": "cd repro-1 && swc server --config-file server/.swcrc --out-dir dist/server --copy-files",
-    "build:repro-2": "cd repro-2/server && swc $PWD --out-dir ../dist/server --copy-files"
+    "build:repro-2": "cd repro-2/server && swc $PWD --out-dir ../dist/server --copy-files",
+    "build:repro-3": "cd repro-3 && swc server --config-file server/.swcrc --out-dir dist/server --copy-files",
+    "build:repro-4": "cd repro-4/server && swc $PWD --out-dir ../dist/server --copy-files"
   },
   "dependencies": {
     "@swc/cli": "0.1.49",
